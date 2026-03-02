@@ -1,0 +1,29 @@
+{
+  "name": "vouchers-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techwave-ly/vouchers_js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/techwave-ly/vouchers_js/issues"
+  },
+  "homepage": "https://github.com/techwave-ly/vouchers_js#readme",
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts"
+}
